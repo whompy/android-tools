@@ -1,0 +1,23 @@
+#!/bin/bash
+#=============================
+#
+# Add cm pulls
+#
+# Example:
+#  croot
+#  cd /<path>/
+#  cmgerrit pull <change-id>
+#
+#=============================
+# Change 1
+# (Framework) Navigation Ring
+croot
+cd frameworks/base
+cmgerrit pull 31762/19
+# Change 2
+# (Settings) Navigation Ring
+croot
+cd packages/apps/Settings
+cmgerrit pull 31763/16
+# Return to the beginning
+croot
