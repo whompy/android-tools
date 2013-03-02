@@ -13,11 +13,11 @@
 # (Framework) Navigation Ring
 croot
 cd frameworks/base
-cmgerrit pull 31762/19
+cmgerrit pull 31762/20
 # Change 2
 # (Settings) Navigation Ring
 croot
 cd packages/apps/Settings
-cmgerrit pull 31763/16
+cmgerrit pull 31763/17
 # Return to the beginning
 croot
